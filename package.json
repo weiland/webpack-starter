@@ -1,0 +1,35 @@
+{
+  "name": "webpack-starter",
+  "version": "0.0.1",
+  "description": "Webpack Starter Kit for simple frontend applications.",
+  "main": "index.js",
+  "repository": "weiland/webpack-starter-kit",
+  "author": "Pascal Weiland <pasweiland@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack-dev-server --env=dev",
+    "build": "webpack -p --env=prod",
+    "profile-build": "webpack -p -j > build-result.json"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-babili": "^0.0.10",
+    "babel-preset-env": "^1.1.8",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "latest",
+    "eslint-plugin-import": "^2.2.0",
+    "extract-text-webpack-plugin": "v2.0.0-rc.3",
+    "html-webpack-plugin": "^2.28.0",
+    "postcss-loader": "^1.2.2",
+    "sass-loader": "^5.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.5.0"
+  }
+}
